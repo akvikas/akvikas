@@ -66,16 +66,16 @@ Currently pursuing a **B.E. in Computer Science and Engineering** at **Chennai I
 
 ---
 
-### 3. [RL Trading Lab — Tabular Q-Learning Sandbox](https://github.com/akvikas/rl-trading-lab) · [Live Demo](https://rl-trading-lab-ptfwpyqvttkq2k2morzc3l.streamlit.app/)
-> **An educational, dependency-free Python reinforcement learning sandbox comparing tabular Q-learning policies with buy-and-hold baselines.**
+### 3. [RL Trading Lab — Cyber Command Center & Q-Learning Sandbox](https://github.com/akvikas/rl-trading-lab) · [Live Streamlit Demo](https://rl-trading-lab-ptfwpyqvttkq2k2morzc3l.streamlit.app/)
+> **An educational algorithmic trading simulator and dark cyber command center evaluating tabular Q-learning policies against passive benchmarks.**
 
-- **Architecture:** Zero external dependencies (pure Python 3.10+ standard library) with modular state-action-reward simulation pipeline.
-- **Market Simulator:** Generates reproducible geometric Brownian motion price paths parameterized by configurable drift and volatility with seed-based determinism.
-- **Reinforcement Learning Engine:** Implements discrete trend-bucket state representation, temporal-difference Bellman equation updates, and epsilon-greedy exploration over `buy`, `sell`, and `hold` action spaces.
-- **Accounting & Cost Modeling:** Realistic one-share portfolio tracking with explicit transaction costs on execution; reward function modeled on differential portfolio value.
-- **Validation:** 100% test coverage on environment transitions, terminal states, and Q-table convergence via Python's standard `unittest` framework; interactive analytics frontend built with Streamlit.
+- **Architecture:** Zero-dependency Python core simulation with a high-contrast dark Streamlit & Plotly analytics dashboard.
+- **Interactive Execution Tracking:** Plots interactive BUY (▲ green) and SELL (▼ red) order executions directly on asset price trajectories with real-time profit tracking (Net P&L, Benchmark Alpha, Win Rate, Profit Factor, Max Drawdown).
+- **Trade Execution Ledger:** Granular audit table logging every order, fill price, commission fee, realized P&L ($ and %), and trend state with instant 1-click CSV export.
+- **Market Dynamics:** Simulates 3 distinct market regimes: Geometric Brownian Motion (random walk control), Momentum Trend ($\rho = +0.35$), and Mean Reversion ($\rho = -0.35$).
+- **Quality Assurance & Verification:** 20 automated tests via Pytest, 50-seed out-of-sample benchmark eliminating data leakage, and GitHub Actions CI matrix running across Python 3.10–3.14 on Ubuntu and Windows.
 
-`Python 3.10+` · `Reinforcement Learning` · `Tabular Q-Learning` · `Simulation` · `NumPy` · `Streamlit` · `unittest`
+`Python 3.10+` · `Reinforcement Learning` · `Streamlit` · `Plotly` · `Pytest` · `CI/CD` · `Quantitative Simulation`
 
 ---
 
@@ -91,12 +91,14 @@ Currently pursuing a **B.E. in Computer Science and Engineering** at **Chennai I
 ---
 
 ### 5. [EnviConnect — Sustainability Action Platform](https://github.com/akvikas/enviconnect) · [Repository](https://github.com/akvikas/enviconnect)
-> **Responsive community platform for discovering, organizing, and launching local ecological and sustainability initiatives.**
+> **Responsive community action platform designed to discover, pledge, and organize local sustainability initiatives with zero cold-start delay.**
 
-- **Architecture:** Modular front-end web application with structured client-side persistence and zero cold-start delay.
-- **Real-Time Community Metrics:** Dynamic participant counters, live initiative filtration, and local storage state synchronization.
+- **Architecture:** React 19, TypeScript, and Tailwind CSS v4 web application with structured client-side `localStorage` (`enviconnect-v1`) persistence.
+- **Input Validation Guardrails:** Accessible form validation with character counters for titles, descriptions, and duration bounds (1–40 hours).
+- **Resilient UI States:** Handles loading skeletons, empty filtered states with one-click resets, empty board states, and animated action toast notifications.
+- **Testing & CI:** 6 Vitest component tests verifying hydration, filtering, and join/leave state transitions; GitHub Actions CI verifying Node 20.x & 22.x.
 
-`JavaScript (ES6+)` · `HTML5` · `CSS3` · `Local Storage API` · `Responsive Design`
+`React 19` · `TypeScript` · `Tailwind CSS v4` · `Vitest` · `Testing Library` · `GitHub Actions`
 
 ---
 
