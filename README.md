@@ -20,7 +20,7 @@ I build focused software projects spanning Python, 3D Web graphics, and embedded
 
 ## Featured Projects
 
-### [Free My TV — 3D Cyber Edition](https://github.com/akvikas/free-my-tv)
+### [Free My TV — 3D Cyber Edition](https://github.com/akvikas/free-my-tv) · [Live Demo](https://akvikas.github.io/free-my-tv/)
 
 A high-performance, ad-free 3D Smart TV home screen engineered for **Samsung Smart TVs (Tizen 5.0+, Series 7)**, Google TV, and LG webOS. Features the interactive **Hero 3D Orbit Sphere** from [Vikas AK's 3D Portfolio](https://akvikas.github.io/3d-portfolio) running hardware-accelerated at 60 FPS via Three.js & WebGL, alongside a custom spatial navigation engine eliminating D-Pad remote control focus traps.
 
